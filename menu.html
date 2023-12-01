@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="darkModeContainer">
+        <button id="darkModeButton">Dark Mode</button>
+    </div>
+    <section id="menu">
+        <h2>OUR MENU</h2>
+        <div class="menu-options">
+            <div class="top-menu-options">
+                <div class="menu-option">
+                    <a href="peri-peri-chicken.html">
+                        <img src="images/menu1.jpg" alt="Peri Peri Chicken">
+                        <span>PERI PERI CHICKEN</span>
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="chicken-rolls.html">
+                        <img src="images/menu2.jpg" alt="Chicken Rolls">
+                        <span>CHICKEN ROLLS</span>
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="chicken-kabab.html">
+                        <img src="images/menu3.jpg" alt="Chicken Kabab">
+                        <span>CHICKEN KABAB</span>
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="biryani-meal.html">
+                        <img src="images/menu4.jpg" alt="Biryani Meal">
+                        <span>BIRYANI MEAL</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-menu-options">
+                <div class="menu-option">
+                    <a href="burgers.html">
+                        <img src="images/menu5.jpg" alt="Burgers">
+                        <span>BURGERS</span>
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="snacks.html">
+                        <img src="images/menu6.jpg" alt="Snacks">
+                        <span>SNACKS</span>
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="beverages.html">
+                        <img src="images/menu7.jpg" alt="Beverages">
+                        <span>BEVERAGES</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+          <button id="colorButton">ColorPlay</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

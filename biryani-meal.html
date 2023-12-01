@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biryani Meal</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-kabab">
+        <div class="top2-options">
+        <h2>Biryani Meal</h2>
+        </div>
+
+        <div class="middle2-options">
+            <div class="food-item2">
+                <img src="images/bir1.jpg" alt="Hyderabadi Biryani">
+                <h3>Hyderabadi Biryani</h3>
+                <p>Fragrant rice layered with aromatic spices and succulent marinated chicken, a specialty of Hyderabad.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item2">
+                <img src="images/bir2.jpg" alt="Muradabadi Biryani">
+                <h3>Muradabadi Biryani</h3>
+                <p>Robust biryani with flavorful spices and tender chicken, representing the culinary heritage of Muradabad.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bir3.jpg" alt="Lucknowi Biryani">
+                <h3>Lucknowi Biryani</h3>
+                <p>Sumptuous biryani infused with fragrant spices and tender chicken, reflecting the rich Awadhi culinary traditions of Lucknow.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom2-options">
+            <div class="food-item2">
+                <img src="images/bir4.jpg" alt="Biryani Lababdar">
+                <h3>Biryani Lababdar</h3>
+                <p>Indulgent biryani with layers of cheese and cream, offering a luxurious twist to the traditional recipe.</p>
+                <p>Price: ₹399.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bir5.jpg" alt="Kolkata Biryani">
+                <h3>Kolkata Biryani</h3>
+                <p>Distinct biryani with subtle flavors, juicy chicken, potatoes, and boiled eggs, a specialty of Kolkata</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bir6.jpg" alt="Paneer Biryani">
+                <h3>Paneer Biryani</h3>
+                <p>Aromatic rice with paneer and fragrant spices, creating a delightful vegetarian twist on the classic biryani.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

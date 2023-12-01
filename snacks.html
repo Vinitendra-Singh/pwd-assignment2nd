@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-kabab">
+        <div class="top2-options">
+        <h2>Snacks</h2>
+        </div>
+
+        <div class="middle2-options">
+            <div class="food-item2">
+                <img src="images/sn1.png" alt="Crispy Chicken Nuggets">
+                <h3>Crispy Chicken Nuggets</h3>
+                <p>Bite-sized chicken delights, perfectly crispy on the outside and tender on the inside, ideal for snacking or dipping.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item2">
+                <img src="images/sn2.png" alt="Spicy Buffalo Chicken Wings">
+                <h3>Spicy Buffalo Chicken Wings</h3>
+                <p>Flavorful and tangy chicken wings tossed in a spicy buffalo sauce, served with a side of cooling blue cheese or ranch dressing.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/sn3.png" alt="Chicken Popcorn">
+                <h3>Chicken Popcorn</h3>
+                <p>Irresistible bite-sized chicken pieces coated in a seasoned breading, offering a delightful and convenient snacking option.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom2-options">
+            <div class="food-item2">
+                <img src="images/sn4.png" alt="BBQ Chicken Skewers">
+                <h3>BBQ Chicken Skewers</h3>
+                <p>Grilled chicken skewers glazed with a smoky barbecue sauce, providing a savory and satisfying snack for any occasion.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/sn5.png" alt="Chicken Lollipop">
+                <h3>Chicken Lollipop</h3>
+                <p>Indo-Chinese chicken wings marinated in spices, fried to crispy perfection, and served with a tangy sauce.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/sn6.png" alt="Chicken Samosas">
+                <h3>Chicken Samosas</h3>
+                <p>A delectable Indian snack featuring crispy pastry filled with spiced minced chicken, peas, and aromatic herbs, offering a flavorful and satisfying treat.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="darkModeContainer">
+        <button id="darkModeButton">Dark Mode</button>
+    </div>
+    <section id="about-us">
+        <div id="abts">
+            <h2>About Us</h2>
+            <p>Welcome to Los Rey del Pollo, a leading provider of high-quality chicken products. Established in 2015, our mission has always been to deliver the freshest and most delicious poultry to our customers' tables.</p>
+            <p>Our guiding principles revolve around a commitment to excellence, customer satisfaction, and sustainable sourcing practices. We prioritize the well-being of our chickens and work closely with local farmers to ensure ethical and responsible farming methods.</p>
+            <h3>Our History</h3>
+            <p>Los Rey del Pollo started as a small family-owned business in the heart of the countryside, with a passion for delivering authentic and flavorsome chicken to the local community. Over the years, we have expanded our operations while maintaining our dedication to quality and freshness.</p>
+
+            <h3>Timeline</h3>
+            <ul>
+                <li>2015 - Company founded by the Garcia family</li>
+                <li>2016 - Launched first store in the local market</li>
+                <li>2018 - Expanded distribution to nearby towns</li>
+                <li>2020 - Implemented sustainable farming practices</li>
+                <li>2022 - Introduced online ordering for customer convenience</li>
+                <li>2023 - Received the Best Poultry Supplier Award in the region</li>
+            </ul>
+        </div>
+        
+    </section>
+    <section id="faqs">
+        <div class="faq-item">
+            <div class="question">What is Los Rey del Pollo known for?</div>
+            <div class="answer">Los Rey del Pollo is known for delivering high-quality and delicious chicken products to our customers.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">What are our opening hours?</div>
+            <div class="answer">We are open from Monday to Sunday, 11:00 AM to 10:00 PM.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">Do we have vegetarian options on our menu?</div>
+            <div class="answer">While our specialty is chicken, we do offer a selection of vegetarian options. Check our menu for details.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">Is there a minimum order requirement for delivery?</div>
+            <div class="answer">We do not have a minimum order requirement for delivery, but delivery fees may apply based on your location.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">How can customers provide feedback or report an issue with the order?</div>
+            <div class="answer">You can provide feedback through our website or contact our customer support. We appreciate your feedback to enhance our services.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question">Do we cater for events or parties?</div>
+            <div class="answer">Yes, we offer catering services for events and parties. Contact us in advance to discuss your specific requirements.</div>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+            <button onclick="displayCurrentTime()">Current Time</button>
+            <button onclick="displayCurrentLocation()">Location</button>
+            <button id="colorButton">ColorPlay</button>
+        </div>
+    
+        <script>
+            document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

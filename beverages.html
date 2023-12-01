@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-kabab">
+        <div class="top2-options">
+        <h2>Beverages</h2>
+        </div>
+
+        <div class="middle2-options">
+            <div class="food-item2">
+                <img src="images/bev1.png" alt="Mineral Water">
+                <h3>Mineral Water</h3>
+                <p>Crisp and refreshing natural spring water, perfect for quenching your thirst.</p>
+                <p>Price: ₹39.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item2">
+                <img src="images/bev2.png" alt="Coca Cola">
+                <h3>Coca Cola</h3>
+                <p>The classic carbonated soft drink with a signature cola taste, providing a delightful and fizzy refreshment.</p>
+                <p>Price: ₹89.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bev3.jpg" alt="Sprite">
+                <h3>Sprite</h3>
+                <p>A zesty and lemon-lime flavored soft drink, known for its refreshing and crisp citrus taste.</p>
+                <p>Price: ₹89.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom2-options">
+            <div class="food-item2">
+                <img src="images/bev4.png" alt="Lemon Ice Tea">
+                <h3>Lemon Ice Tea</h3>
+                <p>A cool and revitalizing blend of tea infused with zesty lemon, offering a refreshing and lightly sweetened beverage.</p>
+                <p>Price: ₹99.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bev5.jpg" alt="Freshca Pulpy Orange">
+                <h3>Freshca Pulpy Orange</h3>
+                <p>A vibrant and naturally pulpy orange juice, brimming with tangy and sweet citrus flavors for a revitalizing experience.</p>
+                <p>Price: ₹99.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/bev6.png" alt="Masala Soda">
+                <h3>Masala Soda</h3>
+                <p>A spicy and effervescent soda infused with aromatic Indian spices, delivering a unique and invigorating twist to your beverage choice.</p>
+                <p>Price: ₹89.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

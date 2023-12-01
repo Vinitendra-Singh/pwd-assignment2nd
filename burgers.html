@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-kabab">
+        <div class="top2-options">
+        <h2>Burger</h2>
+        </div>
+
+        <div class="middle2-options">
+            <div class="food-item2">
+                <img src="images/ger1.png" alt="Classic Chicken Burger">
+                <h3>Classic Chicken Burger</h3>
+                <p> A timeless favorite featuring a juicy chicken patty topped with fresh lettuce, tomatoes, and special sauce.</p>
+                <p>Price: ₹149.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item2">
+                <img src="images/ger2.png" alt="Spicy Sriracha Chicken Burger">
+                <h3>Spicy Sriracha Chicken Burger</h3>
+                <p>A fiery and flavorful chicken burger infused with zesty sriracha sauce, complemented by crispy lettuce and creamy mayo.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/ger3.png" alt="BBQ Bacon Chicken Burger">
+                <h3>BBQ Bacon Chicken Burger</h3>
+                <p>A delectable combination of grilled chicken, crispy bacon, and smoky barbecue sauce, offering a savory and indulgent treat.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom2-options">
+            <div class="food-item2">
+                <img src="images/ger4.png" alt="Mediterranean Chicken Burger">
+                <h3>Mediterranean Chicken Burger</h3>
+                <p>A delightful fusion of flavors with grilled chicken, feta cheese, and refreshing tzatziki, inspired by the Mediterranean cuisine.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/ger5.png" alt="Teriyaki Pineapple Chicken Burger">
+                <h3>Teriyaki Pineapple Chicken Burger</h3>
+                <p>A tantalizing blend of sweet and savory flavors with teriyaki-glazed chicken, topped with grilled pineapple and crisp lettuce.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/ger6.png" alt="Avocado Ranch Chicken Burger">
+                <h3>Avocado Ranch Chicken Burger</h3>
+                <p>A refreshing and creamy chicken burger featuring a tangy avocado spread, ranch dressing, and a medley of fresh vegetables.</p>
+                <p>Price: ₹349.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

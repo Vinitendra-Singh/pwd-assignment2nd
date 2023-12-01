@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Rolls</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-rolls">
+        <div class="top1-options">
+        <h2>Chicken Rolls</h2>
+        </div>
+
+        <div class="middle1-options">
+            <div class="food-item1">
+                <img src="images/rolls1.png" alt="Classic Chicken Roll">
+                <h3>Classic Chicken Roll</h3>
+                <p>A timeless classic with tender chicken and a medley of fresh vegetables, wrapped in a soft and savory roll.</p>
+                <p>Price: ₹149.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item1">
+                <img src="images/rolls2.png" alt="Spicy Chicken Wrap">
+                <h3>Spicy Chicken Wrap</h3>
+                <p>A zesty and fiery twist on the traditional chicken roll, packed with a flavorful punch and a blend of spicy sauces.</p>
+                <p>Price: ₹179.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item1">
+                <img src="images/rolls3.png" alt="Grilled Chicken Burrito">
+                <h3>Grilled Chicken Burrito</h3>
+                <p>A satisfying and wholesome combination of grilled chicken, beans, rice, and fresh veggies, all wrapped in a warm and soft tortilla.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom1-options">
+            <div class="food-item1">
+                <img src="images/rolls4.png" alt="Tangy Chicken Kati Roll">
+                <h3>Tangy Chicken Kati Roll</h3>
+                <p>A delectable street food delight, featuring succulent pieces of chicken tikka wrapped in a warm paratha with tangy chutneys.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item1">
+                <img src="images/rolls5.png" alt="BBQ Chicken Quesadilla">
+                <h3>BBQ Chicken Quesadilla</h3>
+                <p>A mouthwatering fusion of barbecued chicken, melted cheese, and fresh vegetables, grilled to perfection in a crispy tortilla.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item1">
+                <img src="images/rolls6.png" alt="Cheesy Chicken Chimichanga">
+                <h3>Cheesy Chicken Chimichanga</h3>
+                <p>A cheesy and indulgent treat with shredded chicken, cheese, and flavorful spices, deep-fried to golden perfection in a crispy tortilla.</p>
+                <p>Price: ₹349.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+            <button onclick="displayCurrentTime()">Current Time</button>
+            <button onclick="displayCurrentLocation()">Location</button>
+        
+        </div>
+    
+        <script>
+            document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

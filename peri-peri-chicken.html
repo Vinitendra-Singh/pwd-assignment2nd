@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peri Peri Chicken</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="peri-peri-chicken">
+        <div class="top-options">
+        <h2>Peri Peri Chicken</h2>
+        </div>
+
+        <div class="middle-options">
+            <div class="food-item">
+                <img src="images/peri1.png" alt="Classic Peri Peri Chicken">
+                <h3>Classic Peri Peri Chicken</h3>
+                <p>A classic grilled chicken recipe infused with the genuine flavor of Peri Peri sauce, standing the test of time.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item">
+                <img src="images/peri2.png" alt="Fiery Peri Peri Delight">
+                <h3>Fiery Peri Peri Delight</h3>
+                <p>An intensely spicy and flavorful Peri Peri chicken dish that tantalizes the taste buds.</p>
+                <p>Price: ₹199.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item">
+                <img src="images/peri3.jpg" alt="Spicy Grilled Peri Peri Chicken">
+                <h3>Spicy Grilled Peri Peri Chicken</h3>
+                <p>A deliciously seasoned grilled chicken infused with the rich and aromatic flavors of Peri Peri.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom-options">
+            <div class="food-item">
+                <img src="images/peri4.jpg" alt="Peri Peri Chicken Supreme">
+                <h3>Peri Peri Chicken Supreme</h3>
+                <p>The ultimate Peri Peri chicken experience featuring a harmonious blend of spices and succulent grilled chicken.</p>
+                <p>Price: ₹249.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item">
+                <img src="images/peri5.jpg" alt="Zesty Peri Peri Grilled Chicken">
+                <h3>Zesty Peri Peri Grilled Chicken</h3>
+                <p>A lively and refreshing twist on the traditional Peri Peri chicken, bursting with zesty and tangy flavors.</p>
+                <p>Price: ₹299.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item">
+                <img src="images/peri6.png" alt="Tangy Peri Peri Chicken Delight">
+                <h3>Tangy Peri Peri Chicken Delight</h3>
+                <p>A delightful combination of tangy and spicy flavors infused into tender, grilled Peri Peri chicken.</p>
+                <p>Price: ₹349.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Kabab</title>
+    <link rel="html" href="menu.html">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Los Rey del Pollo Logo">
+        </div>
+        <h1>Los Rey del Pollo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="linksand">Home</a></li>
+                <li><a href="about-us.html" class="linksand">About Us</a></li>
+                <li><a href="menu.html" class="linksand">Menu</a></li>
+                <li><a href="clients.html" class="linksand">Services</a></li>
+                <li><a href="contact.html" class="linksand">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chicken-kabab">
+        <div class="top2-options">
+        <h2>Chicken Kabab</h2>
+        </div>
+
+        <div class="middle2-options">
+            <div class="food-item2">
+                <img src="images/kab1.png" alt="Classic Grilled Chicken Kebab">
+                <h3>Classic Grilled Chicken Kebab</h3>
+                <p>Tender marinated chicken pieces grilled to perfection, bursting with classic aromatic flavors.</p>
+                <p>Price: ₹499.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+    
+            <div class="food-item2">
+                <img src="images/kab2.png" alt="Spicy Tandoori Chicken Tikka">
+                <h3>Spicy Tandoori Chicken Tikka</h3>
+                <p>A fiery and flavorful Indian delicacy, marinated in a blend of spices and grilled to smoky perfection.</p>
+                <p>Price: ₹349.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/kab3.png" alt="Tangy Lemon Garlic Chicken Skewers">
+                <h3>Tangy Lemon Garlic Chicken Skewers</h3>
+                <p>Succulent chicken skewers infused with zesty lemon and garlic, delivering a tangy and refreshing taste.</p>
+                <p>Price: ₹499.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bottom2-options">
+            <div class="food-item2">
+                <img src="images/kab4.png" alt="Mediterranean Chicken Souvlaki">
+                <h3>Mediterranean Chicken Souvlaki</h3>
+                <p>A delightful Greek specialty featuring marinated chicken, grilled and served with fresh vegetables and tzatziki.</p>
+                <p>Price: ₹449.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/kab5.png" alt="BBQ Chicken Shish Kebab">
+                <h3>BBQ Chicken Shish Kebab</h3>
+                <p>Juicy chicken pieces marinated in a rich barbecue sauce and skewered with colorful bell peppers and onions.</p>
+                <p>Price: ₹399.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+            <div class="food-item2">
+                <img src="images/kab6.png" alt="Teriyaki Glazed Chicken Yakitori">
+                <h3>Teriyaki Glazed Chicken Yakitori</h3>
+                <p>Japanese-inspired grilled chicken skewers coated with a sweet and savory teriyaki glaze, offering a delightful umami flavor.</p>
+                <p>Price: ₹599.00</p>
+                <button onclick="window.location.href='order.html'">Order Now</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Los Rey del Pollo | Current Date: <span id="currentDate"></span></p>
+        </div>
+        <div class="footer-buttons">
+          <button onclick="displayCurrentTime()">Current Time</button>
+          <button onclick="displayCurrentLocation()">Location</button>
+        </div>
+      
+        <script>
+          document.getElementById("currentDate").innerText = getCurrentDate();
+        </script>
+    </footer>
+</body>
+</html>
